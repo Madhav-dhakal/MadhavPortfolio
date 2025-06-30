@@ -1,11 +1,10 @@
-
 import React from 'react';
 import { ExternalLink, Github, Code, Database, Shield, Smartphone } from 'lucide-react';
 
 const Portfolio = () => {
   const projects = [
     {
-      title: "Yes Blog Web App",
+      title: "Blog Web App",
       description: "A full-featured blogging platform built with MERN Stack, featuring user authentication, responsive design, and a seamless content management experience.",
       techStack: ["MongoDB", "Express.js", "React", "Node.js", "JWT Authentication"],
       features: [
