@@ -49,8 +49,8 @@ const Contact = () => {
     {
       icon: <Phone className="text-indigo-600" size={24} />,
       label: "Phone",
-      value: "+977 9842290280",
-      href: "tel:+9779842290280"
+      value: "+977 9816405659",
+      href: "tel:+9779816405659"
     },
     {
       icon: <Github className="text-gray-700" size={24} />,
