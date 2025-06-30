@@ -60,8 +60,12 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-teal-400 to-indigo-500 p-1 animate-pulse">
-                <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center">
-                  <div className="text-6xl text-gray-400">👤</div>
+                <div className="w-full h-full rounded-full overflow-hidden bg-white">
+                  <img 
+                    src="https://i.postimg.cc/Dyq86bX0/1-removebg-preview-removebg-preview.png"
+                    alt="Madhav Dhakal"
+                    className="w-full h-full object-cover object-center"
+                  />
                 </div>
               </div>
               {/* Decorative elements */}
