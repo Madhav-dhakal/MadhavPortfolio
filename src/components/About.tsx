@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { GraduationCap, Briefcase, Heart } from 'lucide-react';
+import { GraduationCap, Briefcase, Heart, Award, Monitor, Database } from 'lucide-react';
 
 const About = () => {
   return (
@@ -62,6 +62,122 @@ const About = () => {
           </div>
         </div>
 
+        {/* Education Section */}
+        <div className="bg-gradient-to-br from-indigo-50 to-teal-50 rounded-2xl p-8 mb-8">
+          <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center flex items-center justify-center gap-3">
+            <GraduationCap className="text-indigo-600" size={28} />
+            Education
+          </h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-indigo-100 shadow-sm">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="bg-indigo-100 text-indigo-700 text-xs font-semibold px-3 py-1 rounded-full">2019 – 2024</span>
+              </div>
+              <h4 className="text-lg font-bold text-gray-800">BSc CSIT</h4>
+              <p className="text-gray-600 text-sm">Bachelor of Science in Computer Science & Information Technology</p>
+              <p className="text-teal-600 text-sm font-medium mt-1">Tribhuvan University, Kathmandu, Nepal</p>
+            </div>
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-indigo-100 shadow-sm">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="bg-indigo-100 text-indigo-700 text-xs font-semibold px-3 py-1 rounded-full">2017 – 2019</span>
+              </div>
+              <h4 className="text-lg font-bold text-gray-800">+2 Science Stream (NEB)</h4>
+              <p className="text-gray-600 text-sm">Physics, Chemistry & Mathematics</p>
+              <p className="text-teal-600 text-sm font-medium mt-1">Paramount Higher Boarding Secondary School</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Professional Experience Section */}
+        <div className="bg-gray-50 rounded-2xl p-8 mb-8">
+          <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center flex items-center justify-center gap-3">
+            <Briefcase className="text-teal-600" size={28} />
+            Professional Experience
+          </h3>
+          <div className="space-y-6">
+            <div className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm flex gap-4">
+              <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-500 to-teal-600 rounded-lg flex items-center justify-center">
+                <Monitor className="text-white" size={22} />
+              </div>
+              <div>
+                <div className="flex flex-wrap items-center gap-2 mb-1">
+                  <h4 className="text-lg font-bold text-gray-800">.NET Developer Intern</h4>
+                  <span className="bg-teal-100 text-teal-700 text-xs font-semibold px-3 py-1 rounded-full">Jan 2016 – Jul 2016</span>
+                </div>
+                <p className="text-teal-600 text-sm font-medium mb-2">Giga Infos Pvt. Ltd.</p>
+                <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
+                  <li>Worked on .NET-based application development</li>
+                  <li>Assisted in backend development and database integration</li>
+                  <li>Gained practical experience in software development lifecycle</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm flex gap-4">
+              <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-lg flex items-center justify-center">
+                <Briefcase className="text-white" size={22} />
+              </div>
+              <div>
+                <h4 className="text-lg font-bold text-gray-800">Software Developer</h4>
+                <p className="text-indigo-600 text-sm font-medium mb-2">Monstack / .NET Developer</p>
+                <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
+                  <li>Experience in developing web-based applications</li>
+                  <li>Worked with .NET technologies and database systems</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm flex gap-4">
+              <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-500 to-indigo-500 rounded-lg flex items-center justify-center">
+                <Database className="text-white" size={22} />
+              </div>
+              <div>
+                <div className="flex flex-wrap items-center gap-2 mb-1">
+                  <h4 className="text-lg font-bold text-gray-800">Computer Operator</h4>
+                  <span className="bg-indigo-100 text-indigo-700 text-xs font-semibold px-3 py-1 rounded-full">2019</span>
+                </div>
+                <p className="text-teal-600 text-sm font-medium mb-2">DIT Solutions</p>
+                <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
+                  <li>Managed databases and handled data entry operations</li>
+                  <li>Worked with MS Word, MS Excel, and Microsoft Office Package</li>
+                  <li>Basic Internet Networking and system handling</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Certifications Section */}
+        <div className="bg-gradient-to-br from-teal-50 to-indigo-50 rounded-2xl p-8 mb-8">
+          <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center flex items-center justify-center gap-3">
+            <Award className="text-teal-600" size={28} />
+            Certifications
+          </h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-teal-100 shadow-sm">
+              <div className="flex items-center gap-2 mb-3">
+                <span className="bg-teal-100 text-teal-700 text-xs font-semibold px-3 py-1 rounded-full">Feb 2026</span>
+              </div>
+              <h4 className="text-lg font-bold text-gray-800 mb-1">Cyber Threat Management</h4>
+              <p className="text-indigo-600 text-sm font-medium mb-2">Cisco Networking Academy</p>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Understanding of cyber threats, risk assessment, incident management, and proactive security strategies.
+              </p>
+            </div>
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-teal-100 shadow-sm">
+              <div className="flex items-center gap-2 mb-3">
+                <span className="bg-teal-100 text-teal-700 text-xs font-semibold px-3 py-1 rounded-full">Jan 2026</span>
+              </div>
+              <h4 className="text-lg font-bold text-gray-800 mb-1">Introduction to Cybersecurity</h4>
+              <p className="text-indigo-600 text-sm font-medium mb-2">Cisco Networking Academy</p>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Fundamentals of cybersecurity, online safety, and core security concepts.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Core Values */}
         <div className="bg-gray-50 rounded-2xl p-8">
           <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">Core Values & Mission</h3>
           <div className="grid md:grid-cols-3 gap-8">
