@@ -6,6 +6,7 @@ const Portfolio = () => {
     {
       title: "Blog Web App",
       description: "A full-featured blogging platform built with MERN Stack, featuring user authentication, responsive design, and a seamless content management experience.",
+      github: "https://github.com/Madhav-dhakal/Blog_App",
       techStack: ["MongoDB", "Express.js", "React", "Node.js", "JWT Authentication"],
       features: [
         "User registration and authentication",
@@ -20,6 +21,7 @@ const Portfolio = () => {
     {
       title: "iReview Movie Application",
       description: "An interactive movie review application developed with .NET technologies, providing secure user authentication and dynamic content management.",
+      github: "",
       techStack: [".NET Core", "C#", "SQL Server", "Entity Framework", "Bootstrap"],
       features: [
         "Secure user login and registration",
@@ -34,6 +36,7 @@ const Portfolio = () => {
     {
       title: "HanumanteTours Web App",
       description: "A visually stunning travel website for Hanumante Adventures, a Nepal-based travel company specializing in spiritual pilgrimages, adventure trekking, and international tour packages.",
+      github: "https://github.com/Madhav-dhakal/hanumante-tours",
       techStack: ["React", "Vite", "Tailwind CSS", "EmailJS", "TypeScript"],
       features: [
         "Hero slideshow with Himalayan landscapes & temples",
@@ -48,6 +51,7 @@ const Portfolio = () => {
     {
       title: "Universal Consultant Web App",
       description: "A professional auditing and financial consulting website for Universal Consultant, a Butwal-based firm offering audit, tax, VAT, and business advisory services across Nepal.",
+      github: "https://github.com/Madhav-dhakal/UniversalConsultant",
       techStack: ["React", "Vite", "Tailwind CSS", "EmailJS", "TypeScript"],
       features: [
         "Service showcase with audit, tax & VAT consulting sections",
@@ -128,10 +132,12 @@ const Portfolio = () => {
                     <ExternalLink size={18} className="mr-2" />
                     View Project
                   </button>
-                  <button className="px-6 py-3 border-2 border-gray-300 text-gray-600 rounded-full hover:border-teal-500 hover:text-teal-600 transition-all duration-300 flex items-center">
-                    <Github size={18} className="mr-2" />
-                    Code
-                  </button>
+                  {project.github && (
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="px-6 py-3 border-2 border-gray-300 text-gray-600 rounded-full hover:border-teal-500 hover:text-teal-600 transition-all duration-300 flex items-center">
+                      <Github size={18} className="mr-2" />
+                      Code
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
