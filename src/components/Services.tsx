@@ -32,26 +32,26 @@ const Services = () => {
     },
     {
       icon: <Megaphone className="text-white" size={32} />,
-      title: "Facebook & Meta Ads",
-      description: "Targeted advertising campaigns that connect with audiences on a deeper, more meaningful level.",
+      title: "IT Support",
+      description: "Reliable technical support and troubleshooting to keep your systems running smoothly and efficiently.",
       features: [
-        "Campaign Strategy",
-        "Audience Targeting",
-        "Creative Development",
-        "Performance Analytics"
+        "Hardware & Software Support",
+        "Network Troubleshooting",
+        "System Maintenance",
+        "Data Backup & Recovery"
       ],
       gradient: "from-pink-500 to-rose-500",
       bgColor: "bg-pink-500"
     },
     {
       icon: <TrendingUp className="text-white" size={32} />,
-      title: "Digital Marketing",
-      description: "Comprehensive online presence solutions that align with your authentic purpose and values.",
+      title: "Spiritual Inspiration",
+      description: "Blending inner wisdom with digital creativity to craft experiences that uplift, inspire, and resonate with the soul.",
       features: [
-        "SEO Strategy",
-        "Content Marketing",
-        "Social Media Management",
-        "Brand Development"
+        "Mindful Content Creation",
+        "Inspirational Storytelling",
+        "Purpose-Driven Branding",
+        "Holistic Digital Presence"
       ],
       gradient: "from-orange-500 to-amber-500",
       bgColor: "bg-orange-500"
