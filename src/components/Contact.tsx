@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Mail, Phone, Github, Send, MapPin } from 'lucide-react';
+import { Mail, Phone, Github, Send, MapPin, Facebook, Linkedin, Youtube } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import emailjs from '@emailjs/browser';
 
@@ -92,6 +92,24 @@ const Contact = () => {
       label: "Location",
       value: "Nepal",
       href: null
+    },
+    {
+      icon: <Facebook className="text-blue-600" size={24} />,
+      label: "Facebook",
+      value: "Madhav Dhakal",
+      href: "https://www.facebook.com/madhav.dhakal.438226"
+    },
+    {
+      icon: <Linkedin className="text-blue-700" size={24} />,
+      label: "LinkedIn",
+      value: "Madhav Dhakal",
+      href: "https://www.linkedin.com/in/madhav-dhakal-3844a2293"
+    },
+    {
+      icon: <Youtube className="text-red-600" size={24} />,
+      label: "YouTube",
+      value: "Madhav Dhakal",
+      href: "https://www.youtube.com/@Madhav-Dhakal321"
     }
   ];
 
@@ -133,8 +151,8 @@ const Contact = () => {
                         <a 
                           href={info.href}
                           className="text-gray-800 hover:text-teal-600 transition-colors duration-200 text-sm font-medium"
-                          target={info.label === 'GitHub' ? '_blank' : undefined}
-                          rel={info.label === 'GitHub' ? 'noopener noreferrer' : undefined}
+                          target={['GitHub', 'Facebook', 'LinkedIn', 'YouTube'].includes(info.label) ? '_blank' : undefined}
+                          rel={['GitHub', 'Facebook', 'LinkedIn', 'YouTube'].includes(info.label) ? 'noopener noreferrer' : undefined}
                         >
                           {info.value}
                         </a>
