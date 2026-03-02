@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Github, Code, Database, Shield, Smartphone } from 'lucide-react';
+import { ExternalLink, Github, Code, Database, Shield, Smartphone, Building2 } from 'lucide-react';
 
 const Portfolio = () => {
   const projects = [
@@ -44,6 +44,20 @@ const Portfolio = () => {
       ],
       icon: <Smartphone className="text-amber-600" size={32} />,
       gradient: "from-amber-500 to-orange-500"
+    },
+    {
+      title: "Universal Consultant Web App",
+      description: "A professional auditing and financial consulting website for Universal Consultant, a Butwal-based firm offering audit, tax, VAT, and business advisory services across Nepal.",
+      techStack: ["React", "Vite", "Tailwind CSS", "EmailJS", "TypeScript"],
+      features: [
+        "Service showcase with audit, tax & VAT consulting sections",
+        "Client testimonials carousel",
+        "Contact & inquiry form with EmailJS integration",
+        "Industry-specific service pages for SMEs, NGOs & startups",
+        "Responsive design with professional financial aesthetic"
+      ],
+      icon: <Building2 className="text-emerald-600" size={32} />,
+      gradient: "from-emerald-500 to-teal-500"
     }
   ];
 
