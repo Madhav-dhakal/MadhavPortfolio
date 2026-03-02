@@ -30,6 +30,20 @@ const Portfolio = () => {
       ],
       icon: <Database className="text-indigo-600" size={32} />,
       gradient: "from-indigo-500 to-purple-500"
+    },
+    {
+      title: "HanumanteTours Web App",
+      description: "A visually stunning travel website for Hanumante Adventures, a Nepal-based travel company specializing in spiritual pilgrimages, adventure trekking, and international tour packages.",
+      techStack: ["React", "Vite", "Tailwind CSS", "EmailJS", "TypeScript"],
+      features: [
+        "Hero slideshow with Himalayan landscapes & temples",
+        "Tour packages with itineraries & booking forms",
+        "Filtered gallery with pilgrimage, trekking & international categories",
+        "Contact & inquiry form with EmailJS integration",
+        "SEO-optimized responsive design for all devices"
+      ],
+      icon: <Smartphone className="text-amber-600" size={32} />,
+      gradient: "from-amber-500 to-orange-500"
     }
   ];
 
