@@ -148,9 +148,9 @@ const Portfolio = () => {
           <p className="text-gray-600 mb-6">
             Each project reflects my commitment to creating technology that serves a higher purpose
           </p>
-          <button className="bg-white text-teal-600 px-8 py-3 rounded-full border-2 border-teal-600 hover:bg-teal-600 hover:text-white transition-all duration-300">
+          <a href="https://github.com/Madhav-dhakal?tab=repositories" target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-teal-600 px-8 py-3 rounded-full border-2 border-teal-600 hover:bg-teal-600 hover:text-white transition-all duration-300">
             View All Projects on GitHub
-          </button>
+          </a>
         </div>
       </div>
     </section>
