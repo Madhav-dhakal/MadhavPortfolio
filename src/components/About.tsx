@@ -118,11 +118,14 @@ const About = () => {
                 <Briefcase className="text-white" size={22} />
               </div>
               <div>
-                <h4 className="text-lg font-bold text-gray-800">Software Developer</h4>
-                <p className="text-indigo-600 text-sm font-medium mb-2">Monstack / .NET Developer</p>
+                <div className="flex flex-wrap items-center gap-2 mb-1">
+                  <h4 className="text-lg font-bold text-gray-800">MERN Stack Training</h4>
+                  <span className="bg-indigo-100 text-indigo-700 text-xs font-semibold px-3 py-1 rounded-full">Jun 2019 – Dec 2019</span>
+                </div>
+                <p className="text-indigo-600 text-sm font-medium mb-2">3 Months Training Program</p>
                 <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
-                  <li>Experience in developing web-based applications</li>
-                  <li>Worked with .NET technologies and database systems</li>
+                  <li>Trained in MongoDB, Express.js, React.js, and Node.js</li>
+                  <li>Built full-stack web applications using the MERN stack</li>
                 </ul>
               </div>
             </div>
