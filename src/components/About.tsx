@@ -102,7 +102,7 @@ const About = () => {
               <div>
                 <div className="flex flex-wrap items-center gap-2 mb-1">
                   <h4 className="text-lg font-bold text-gray-800">.NET Software Developer</h4>
-                  <span className="bg-teal-100 text-teal-700 text-xs font-semibold px-3 py-1 rounded-full">Jan 2016 – Jul 2016</span>
+                  <span className="bg-teal-100 text-teal-700 text-xs font-semibold px-3 py-1 rounded-full">Jan 2025 – Jul 2025</span>
                 </div>
                 <p className="text-teal-600 text-sm font-medium mb-2">Giga Infos Pvt. Ltd.</p>
                 <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
@@ -208,8 +208,8 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default About;
