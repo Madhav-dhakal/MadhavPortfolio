@@ -92,25 +92,13 @@ const Contact = () => {
       label: "Location",
       value: "Nepal",
       href: null
-    },
-    {
-      icon: <Facebook className="text-blue-600" size={24} />,
-      label: "Facebook",
-      value: "Madhav Dhakal",
-      href: "https://www.facebook.com/madhav.dhakal.438226"
-    },
-    {
-      icon: <Linkedin className="text-blue-700" size={24} />,
-      label: "LinkedIn",
-      value: "Madhav Dhakal",
-      href: "https://www.linkedin.com/in/madhav-dhakal-3844a2293"
-    },
-    {
-      icon: <Youtube className="text-red-600" size={24} />,
-      label: "YouTube",
-      value: "Madhav Dhakal",
-      href: "https://www.youtube.com/@Madhav-Dhakal321"
     }
+  ];
+
+  const socialLinks = [
+    { icon: <Facebook size={24} />, href: "https://www.facebook.com/madhav.dhakal.438226", label: "Facebook", className: "text-blue-600 hover:text-blue-700" },
+    { icon: <Linkedin size={24} />, href: "https://www.linkedin.com/in/madhav-dhakal-3844a2293", label: "LinkedIn", className: "text-blue-700 hover:text-blue-800" },
+    { icon: <Youtube size={24} />, href: "https://www.youtube.com/@Madhav-Dhakal321", label: "YouTube", className: "text-red-600 hover:text-red-700" },
   ];
 
   return (
@@ -162,6 +150,21 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
+              ))}
+            </div>
+
+            <div className="flex items-center gap-6 mt-4">
+              {socialLinks.map((social, index) => (
+                <a
+                  key={index}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={social.label}
+                  className={`${social.className} transition-transform duration-200 hover:scale-125`}
+                >
+                  {social.icon}
+                </a>
               ))}
             </div>
 
