@@ -122,7 +122,7 @@ const About = () => {
                   <h4 className="text-lg font-bold text-gray-800">MERN Stack Training</h4>
                   <span className="bg-indigo-100 text-indigo-700 text-xs font-semibold px-3 py-1 rounded-full">Sep 2023 – Dec 2023</span>
                 </div>
-                <p className="text-indigo-600 text-sm font-medium mb-2">3 Months Training Program</p>
+                <p className="text-indigo-600 text-sm font-medium mb-2">BROADWAY INFOSYS</p>
                 <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
                   <li>Trained in MongoDB, Express.js, React.js, and Node.js</li>
                   <li>Built full-stack web applications using the MERN stack</li>
