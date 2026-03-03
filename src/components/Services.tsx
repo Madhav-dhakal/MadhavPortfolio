@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Palette, Code, Megaphone, TrendingUp } from 'lucide-react';
+import { Palette, Code, Megaphone, Leaf } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -44,14 +44,14 @@ const Services = () => {
       bgColor: "bg-pink-500"
     },
     {
-      icon: <TrendingUp className="text-white" size={32} />,
+      icon: <Leaf className="text-white" size={32} />,
       title: "Spiritual Inspiration",
-      description: "Blending inner wisdom with digital creativity to craft experiences that uplift, inspire, and resonate with the soul.",
+      description: "Using digital creativity to share positive messages that inspire, heal, and bring awareness to people's lives.",
       features: [
         "Mindful Content Creation",
         "Inspirational Storytelling",
-        "Purpose-Driven Branding",
-        "Holistic Digital Presence"
+        "Mental & Emotional Awareness",
+        "Life Purpose Guidance"
       ],
       gradient: "from-orange-500 to-amber-500",
       bgColor: "bg-orange-500"
