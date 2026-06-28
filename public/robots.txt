@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://madhav-inner-tech.lovable.app/sitemap.xml
